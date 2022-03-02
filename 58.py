@@ -5,4 +5,5 @@ else:
     message = "failure"
 
 message = "success" if score >= 60 else "failure"
+# 3항 연산자 ?
 print(message)
